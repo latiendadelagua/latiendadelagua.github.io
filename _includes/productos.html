@@ -1,0 +1,26 @@
+<!-- Productos Section Start -->
+<section id="productos" class="section-padding bg-gray">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Nuestras aguas</h2>
+            <p>Listado de las marcas de agua. El precio incluye el transporte y el IVA!</p>
+        </div>
+        <div class="row">
+            {% for producto in site.data.productos %}
+            <div class="col-md-6 col-lg-4 col-xs-12">
+                <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+                    <div class="icon">
+                        <img src="{{ producto.image }}">
+                    </div>
+                    <div class="services-content">
+                        <h3><a href="#">{{ producto.name }}</a></h3>
+                        <p> {{ producto.price }}€ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde perspiciatis dicta labore
+                            nulla beatae quaerat quia incidunt laborum aspernatur...</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- Productos Section End -->
