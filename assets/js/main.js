@@ -9,10 +9,6 @@
    ========================================================================== */
   $('#portfolio').mixItUp();
 
-  /*Page Loader active
-  ========================================================*/
-  $('#preloader').fadeOut();
-
   // Sticky Nav
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 100) {
