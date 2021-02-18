@@ -37,13 +37,8 @@
       font-weight: 600;
       display: block;
       text-transform: uppercase;
-
-      a {
-        color: #333;
-
-        &:hover {
-          color: $preset;
-        }
+      &:hover {
+        color: $preset;
       }
     }
 

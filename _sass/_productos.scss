@@ -84,33 +84,3 @@
   display: table-cell;
   vertical-align: middle;
 }
-
-// Skills 
-.skill-area {
-  img {
-    border-radius: 4px;
-  }
-}
-
-.skills-section {
-  margin-top: 30px;
-
-  .progress-box {
-    h5 {
-      color: #222222;
-      font-size: 14px;
-      text-transform: uppercase;
-      font-weight: 600;
-    }
-  }
-
-  .progress {
-    background: #f9f9f9;
-    height: 10px;
-    margin-bottom: 30px;
-
-    .progress-bar {
-      background: $preset;
-    }
-  }
-}
