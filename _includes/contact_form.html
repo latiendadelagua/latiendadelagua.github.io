@@ -3,22 +3,22 @@
     <div class="row form-elements">
         <div class="col-md-6">
             <div class="form-group">
-                <input type="text" id="name" name="name" class="form-control" placeholder="Name"
-                       required data-error="Please enter your name">
+                <input type="text" id="name" name="name" class="form-control" placeholder="Nombre"
+                       required data-error="Por favor indíquenos su nombre">
                 <div class="help-block with-errors"></div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="form-group">
-                <input type="text" id="email" name="email" class="form-control" placeholder="Email"
-                       required data-error="Please enter your email">
+                <input type="email" id="email" name="email" class="form-control" placeholder="Email"
+                       required data-error="Por favor indíquenos su email">
                 <div class="help-block with-errors"></div>
             </div>
         </div>
         <div class="col-md-12">
             <div class="form-group">
-                <textarea id="message" name="message" class="form-control" placeholder="Your Message" rows="5"
-                      data-error="Write your message" required></textarea>
+                <textarea id="message" name="message" class="form-control" placeholder="Mensaje" rows="5"
+                      data-error="Escriba un mensaje" required></textarea>
                 <div class="help-block with-errors"></div>
             </div>
             <fieldset class="pure-group honeypot-field" style="display:none">
@@ -26,15 +26,14 @@
                 <input id="honeypot" type="text" name="honeypot" value="" />
             </fieldset>
             <div class="submit-button">
-                <button class="btn btn-common" id="form-submit" type="submit">Send Message</button>
+                <button class="btn btn-common" id="form-submit" type="submit">Enviar</button>
                 <div id="msgSubmit" class="h3 text-center hidden"></div>
                 <div class="clearfix"></div>
             </div>
         </div>
     </div>
     <div style="display:none" class="thank-you-message">
-        <!-- You can customize the thank you message by editing the code below -->
-        <h2><em>Thanks</em> for contacting us! We will get back to you soon!
+        <h2><em>Gracias</em> por contactar con nuestro equipo. En breve atenderemos su petición.
         </h2>
     </div>
 </form>

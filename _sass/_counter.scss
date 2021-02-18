@@ -106,26 +106,6 @@
       }
      }
 
-     // Client 
-    .client-item-wrapper{
-      text-align: center;
-      padding: 15px;
-      img{
-        opacity: 0.5;
-          filter: grayscale(100%);
-          -webkit-filter: grayscale(100%);
-          filter: gray;
-          transition: all .6s ease;
-          -moz-transition: all .6s ease;
-          -webkit-transition: all .6s ease;
-      }
-    }
-    .client-item-wrapper:hover img{
-      opacity: 1;
-      filter: grayscale(0%);
-        -webkit-filter: grayscale(0%);
-    }
-
     #latest{
       .text-content{
         height: 100%;
