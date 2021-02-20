@@ -1,29 +1,24 @@
-<form id="contactForm" class="gform" method="post"
+<form class="gform" method="post"
       action="https://script.google.com/macros/s/AKfycbwe75n99wBWvxLTvY5Ds2bCSUFHj4vY86CKMgrcDVRSTQkz6IrFHe0N/exec">
     <div class="row form-elements">
         <div class="col-md-6">
-            <div class="form-group">
-                <input type="text" id="name" name="name" class="form-control" placeholder="Nombre"
-                       required data-error="Por favor indíquenos su nombre">
-                <div class="help-block with-errors"></div>
-            </div>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Nombre"
+                   required data-error="Por favor indíquenos su nombre">
+            <div class="help-block with-errors"></div>
         </div>
         <div class="col-md-6">
-            <div class="form-group">
-                <input type="email" id="email" name="email" class="form-control" placeholder="Email"
-                       required data-error="Por favor indíquenos su email">
-                <div class="help-block with-errors"></div>
-            </div>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Email"
+                   required data-error="Por favor indíquenos su email">
+            <div class="help-block with-errors"></div>
         </div>
         <div class="col-md-12">
-            <div class="form-group">
-                <textarea id="message" name="message" class="form-control" placeholder="Mensaje" rows="5"
+            <textarea id="message" name="message" class="form-control" placeholder="Mensaje" rows="5"
                       data-error="Escriba un mensaje" required></textarea>
-                <div class="help-block with-errors"></div>
-            </div>
-            <fieldset class="pure-group honeypot-field" style="display:none">
-                <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
-                <input id="honeypot" type="text" name="honeypot" value="" />
+            <div class="help-block with-errors"></div>
+            <fieldset class="honeypot-field">
+                <label for="honeypot">To help avoid spam, utilize a Honeypot technique with a hidden text field; must be
+                    empty to submit the form! Otherwise, we assume the user is a spam bot.</label>
+                <input id="honeypot" type="text" name="honeypot" value=""/>
             </fieldset>
             <div class="submit-button">
                 <button class="btn btn-common" id="form-submit" type="submit">Enviar</button>
@@ -32,7 +27,7 @@
             </div>
         </div>
     </div>
-    <div style="display:none" class="thank-you-message">
+    <div class="thank-you-message">
         <strong>Gracias por contactar con nuestro equipo. En breve atenderemos su petición.</strong>
     </div>
 </form>

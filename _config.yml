@@ -21,15 +21,15 @@
 title: La Tienda del Agua - Agua embotellada a domicilio
 description: >-
   Servicio de agua embotellada a domicilio para Elda y Petrer.
-  Beneficiate de nuestro transporte gratuito. Sin coutas.
+  Beneficiate de nuestro transporte gratuito. Sin cuotas.
   Llámanos y te la llevamos nosotros.
 email: info@servipau.com
 phone_text: '96 537 19 62'
 phone_link: tel://965371962
 address: >-
-  Servipau S.L.
   C/ Carrasqueta, 13, Pol. Ind. Salinetas
   Petrer 03610 (Alicante)
+address_link: https://goo.gl/maps/19Cba9oXw1wQHMWU8
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://latiendadelagua.com"
 
@@ -53,3 +53,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+sass:
+  style: compressed

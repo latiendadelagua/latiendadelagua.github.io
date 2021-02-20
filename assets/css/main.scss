@@ -1,29 +1,14 @@
 ---
 ---
 
-// Preset Color Styles
 @import "colors/presets";
-
-// Global Styles
 @import "global";
-
-// Feature Styles
 @import "servicio";
-
-// Service Area
 @import "productos";
-
-// Navbar
 @import "navbar";
-
-// Hero Slider Area
 @import "inicio";
-
-// Blog Area
 @import "empresa";
-
-// Contact
 @import "contact";
-
-// Contact Area
 @import "footer";
+@import "animate";
+@import "responsive";
