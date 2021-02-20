@@ -6,6 +6,7 @@
   height: 100%;
   display: table;
   padding-left: 140px;
+  padding-top: 120px;
 
   > div {
     vertical-align: middle;
@@ -31,10 +32,10 @@
     -moz-transition: all .6s ease;
     -webkit-transition: all .6s ease;
 
-    i {
-      font-size: 36px;
-      color: #fff;
-      line-height: 80px;
+    img {
+      width: 48px;
+      height: 48px;
+      margin-top: 15px;
     }
   }
 }
