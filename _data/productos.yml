@@ -3,23 +3,23 @@
   image: assets/img/productos/la-serreta-pack-6-botellas.png
 
 - name: Pack 6 bot. 1.5L MONSSALUS
-  price: '2.40'
+  price: '2.55'
   image: assets/img/productos/monssalus-pack-6-botellas.jpg
 
 - name: Pack 6 bot. 1.5L BEZOYA
-  price: '3.90'
+  price: '4.15'
   image: assets/img/productos/bezoya-pack-6-botellas.jpg
 
 - name: Pack 6 bot. 1.5L FONT VELLA
-  price: '3.90'
+  price: '4.15'
   image: assets/img/productos/font-vella-pack-6-botellas.jpg
 
 - name: Pack 6 bot. 1.5L SOLÁN DE CABRAS
-  price: '4.20'
+  price: '4.45'
   image: assets/img/productos/solancabras-pack-6-botellas.jpg
 
 - name: Garrafa 5L MONSSALUS
-  price: '1.25'
+  price: '1.35'
   image: assets/img/productos/monssalus-garrafa-5l.jpg
 
 - name: Garrafa 8L LA SERRETA
@@ -27,7 +27,7 @@
   image: assets/img/productos/la-serreta-garrafa-8l.jpg
 
 - name: Pack 24 bot. 0.33L MONSSALUS
-  price: '4.80'
+  price: '5.15'
   image: assets/img/productos/monssalus-pack-24-botellas.jpg
 
 - name: Pack 12 bot. 0.33L LA SERRETA
