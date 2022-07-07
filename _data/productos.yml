@@ -1,5 +1,5 @@
 - name: Pack 6 bot. 1.5L LA SERRETA
-  price: '1.80'
+  price: '1.95'
   image: assets/img/productos/la-serreta-pack-6-botellas.png
 
 - name: Pack 6 bot. 1.5L MONSSALUS
@@ -23,7 +23,7 @@
   image: assets/img/productos/monssalus-garrafa-5l.jpg
 
 - name: Garrafa 8L LA SERRETA
-  price: '1.45'
+  price: '1.55'
   image: assets/img/productos/la-serreta-garrafa-8l.jpg
 
 - name: Pack 24 bot. 0.33L MONSSALUS
@@ -31,5 +31,5 @@
   image: assets/img/productos/monssalus-pack-24-botellas.jpg
 
 - name: Pack 12 bot. 0.33L LA SERRETA
-  price: '1.80'
+  price: '1.95'
   image: assets/img/productos/la-serreta-pack-12-botellas.jpg
