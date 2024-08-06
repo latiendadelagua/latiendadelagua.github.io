@@ -7,15 +7,15 @@
   image: assets/img/productos/monssalus-pack-6-botellas.jpg
 
 - name: Pack 6 bot. 1.5L BEZOYA
-  price: '4.55'
+  price: '4.75'
   image: assets/img/productos/bezoya-pack-6-botellas.jpg
 
 - name: Pack 6 bot. 1.5L FONT VELLA
-  price: '4.55'
+  price: '4.75'
   image: assets/img/productos/font-vella-pack-6-botellas.jpg
 
 - name: Pack 6 bot. 1.5L SOLÁN DE CABRAS
-  price: '5.35'
+  price: '5.75'
   image: assets/img/productos/solancabras-pack-6-botellas.jpg
 
 - name: Garrafa 5L MONSSALUS
